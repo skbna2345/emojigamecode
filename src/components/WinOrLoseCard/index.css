@@ -1,0 +1,129 @@
+/* Write your code here. */
+.win-or-lose-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 3px solid #ffffff30;
+  border-radius: 23px;
+  margin: auto;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .win-or-lose-card {
+    width: 80%;
+    padding: 31px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .win-or-lose-card {
+    flex-direction: row;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .win-or-lose-card {
+    width: 60%;
+  }
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+}
+
+@media screen and (min-width: 992px) {
+  .details-section {
+    order: 0;
+  }
+}
+
+.game-status {
+  font-weight: bold;
+  font-size: 31px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 62px;
+  }
+}
+
+.current-score-label {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .current-score-label {
+    font-size: 35px;
+  }
+}
+
+.current-score-value {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 31px;
+  font-family: 'Roboto';
+  color: #6a59ff;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .current-score-value {
+        font-size: 47px;
+    }
+}
+
+.play-again-button {
+    padding: 15px;
+    padding-right: 23px;
+    margin: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Roboto";
+    background-color: #ffce27;
+    color: #3d3d3d;
+    cursor: pointer;
+    outline: none;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    order: 0;
+}
+
+@media screen and (min-width: 992px) {
+    .image-section {
+        order: 1;
+    }
+}
+
+.win-or-lose-image {
+    height: 200px;
+    width: 150px;
+}
+
+@media screen and (min-width: 992px) {
+    .win-or-lose-image {
+        height: 450px;
+        width: 350px;
+    }
+}
